@@ -62,40 +62,29 @@ python data_cleaning.py
 python nlp.py
 python feature_engineering.py
 python model_evaluator.py
-
-🛠️ Tools & Libraries
+---
+##🛠️ Tools & Libraries
 Python:
-
-Pandas
-
-NumPy
-
-Scikit-learn
-
-NLTK
-
-Matplotlib
-
-Seaborn
-
+-Pandas
+-NumPy
+-Scikit-learn
+-NLTK
+-Matplotlib
+-Seaborn
 Power BI
-
 TF-IDF Vectorizer
-
 Logistic Regression Classifier
 
-🙌 Acknowledgement
+---
+
+##🙌 Acknowledgement
 This project was originally part of an academic group assignment guided by Ms. Sandeep Kaur.
 
 Original Team Members:
 Sivani Sankar
-
 Juby Elsa Chandy
-
 Parthiv Krishna S
-
 Yadhukrishnan M
-
 Sanmaya M B (me)
 
 This GitHub repository reflects my personal reimplementation and visualization of the original idea. I built the entire workflow independently — from text processing and model training to Power BI integration — to deepen my understanding and showcase it as part of my portfolio.

@@ -52,13 +52,11 @@ Evaluation – Generated accuracy, classification report, and confusion matrix
 Visualization – Built a Power BI dashboard using predictions and trends
 
 ⚙️ How to Run
-bash
-Copy
-Edit
 python data_cleaning.py
 python nlp.py
 python feature_engineering.py
 python model_evaluator.py
+
 🙌 Acknowledgement
 This project was originally a collaborative academic assignment. This version reflects my own individual implementation and visualization.
 Grateful to my project guide Sandeep Kaur and peers for inspiration.

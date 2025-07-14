@@ -1,46 +1,103 @@
 # drug-review-sentiment-analysis
 NLP and ML-based sentiment classification of drug reviews with Power BI dashboard visualization.
 
+# 💊 Drug Review Sentiment Analysis
 
-💊 Drug Review Sentiment Analysis
-This is a Natural Language Processing (NLP) project where I analyzed real-world drug reviews to predict user sentiment as Positive, Negative, or Neutral using Machine Learning. The final results were visualized through an interactive Power BI dashboard.
+A Natural Language Processing (NLP) and Machine Learning project to classify user sentiments in real-world drug reviews as **Positive**, **Negative**, or **Neutral**, with results visualized through an interactive **Power BI dashboard**.
 
-🔍 Features
-Text cleaning and preprocessing
-TF-IDF vectorization
-Sentiment classification using Logistic Regression
-Evaluation metrics: accuracy, confusion matrix, classification report
-Interactive Power BI dashboard with visual insights
+---
 
-📁 Files Included
-data_cleaning.py – Clean raw review data
-nlp.py – Text processing and TF-IDF vectorization
-feature_engineering.py – Train-test split and dataset saving
-model_evaluator.py – Train and evaluate the model
-sentiment_analysis_project.pbix – Power BI dashboard
-model_predictions.csv, metrics.txt, and evaluation plots
+## 🔍 Features
 
-📊 Dashboard Features
-Sentiment Distribution
-Review Trends by Year
-Top Conditions Reviewed
-Review Length by Sentiment
-Rating Distribution
+- ✅ Text cleaning and preprocessing
+- ✅ TF-IDF vectorization for feature extraction
+- ✅ Sentiment classification using Logistic Regression
+- ✅ Evaluation metrics: accuracy, confusion matrix, classification report
+- ✅ Interactive Power BI dashboard with visual insights
 
-🧠 Project Workflow
-Data Cleaning – Removed punctuation, lowercase text, formatted dates
-NLP Preprocessing – Applied TF-IDF for vectorizing review text
-Feature Engineering – Performed train-test split and saved processed data
-Model Training – Trained Logistic Regression classifier
-Evaluation – Generated accuracy, classification report, and confusion matrix
-Visualization – Built a Power BI dashboard using predictions and trends
+---
 
-⚙️ How to Run
+## 📁 Files Included
+
+| File                         | Description                                 |
+|------------------------------|---------------------------------------------|
+| `data_cleaning.py`           | Clean raw review data (punctuation, case)   |
+| `nlp.py`                     | Tokenization, TF-IDF vectorization          |
+| `feature_engineering.py`     | Train-test split and data saving            |
+| `model_evaluator.py`         | Train Logistic Regression and evaluate      |
+| `model_predictions.csv`      | CSV file with predicted sentiments          |
+| `metrics.txt`                | Accuracy and classification report          |
+| `plots/`                     | Confusion matrix and performance graphs     |
+| `sentiment_analysis_project.pbix` | Power BI dashboard file               |
+
+---
+
+## 📊 Dashboard Features (Power BI)
+
+- 📌 **Sentiment Distribution**  
+- 📌 **Review Trends by Year**  
+- 📌 **Top Conditions Reviewed**  
+- 📌 **Review Length by Sentiment**  
+- 📌 **Rating Distribution**
+
+---
+
+## 🧠 Project Workflow
+
+1. **Data Cleaning** – Removed punctuation, converted to lowercase, formatted date columns  
+2. **NLP Preprocessing** – Used TF-IDF to convert text into numerical vectors  
+3. **Feature Engineering** – Split dataset into train and test sets, saved for reuse  
+4. **Model Training** – Trained Logistic Regression on vectorized data  
+5. **Evaluation** – Calculated accuracy, classification report, and confusion matrix  
+6. **Visualization** – Built Power BI dashboard with model output and insights  
+
+---
+
+## ⚙️ How to Run the Project
+
+Make sure you have Python and required libraries installed.
+
+```bash
 python data_cleaning.py
 python nlp.py
 python feature_engineering.py
 python model_evaluator.py
 
+🛠️ Tools & Libraries
+Python:
+
+Pandas
+
+NumPy
+
+Scikit-learn
+
+NLTK
+
+Matplotlib
+
+Seaborn
+
+Power BI
+
+TF-IDF Vectorizer
+
+Logistic Regression Classifier
+
 🙌 Acknowledgement
-This project was originally a collaborative academic assignment. This version reflects my own individual implementation and visualization.
-Grateful to my project guide Sandeep Kaur and peers for inspiration.
+This project was originally part of an academic group assignment guided by Ms. Sandeep Kaur.
+
+Original Team Members:
+Sivani Sankar
+
+Juby Elsa Chandy
+
+Parthiv Krishna S
+
+Yadhukrishnan M
+
+Sanmaya M B (me)
+
+This GitHub repository reflects my personal reimplementation and visualization of the original idea. I built the entire workflow independently — from text processing and model training to Power BI integration — to deepen my understanding and showcase it as part of my portfolio.
+
+🙏 Grateful to my guide and teammates for their contribution to the original version.
